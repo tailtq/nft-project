@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'base/typography';
+
+/* Components */
+@import 'components/navbar';
+@import 'components/link';
+@import 'components/button';
+@import 'components/text';
+@import 'components/background';
+@import 'components/home-banner';

@@ -1,0 +1,30 @@
+.button--standard {
+  font-family: 'Girdo', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+
+  &.bigger {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+  }
+
+  &.inverse {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.button--standard:hover {
+  color: #000000;
+
+  &.inverse {
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}

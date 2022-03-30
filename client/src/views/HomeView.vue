@@ -1,21 +1,23 @@
 <template>
-  <div class="container">
-    <home-banner class="mb-12" />
+  <home-banner />
 
-    <project-story class="mb-12" />
+  <project-intro />
 
-    <project-roadmap class="mb-12" />
+  <project-story class="mb-12" />
 
-    <project-partners class="mb-12" />
-  </div>
+  <project-roadmap class="mb-12" />
+
+  <project-partners class="mb-12" />
 </template>
 
 <script>
 import { HomeBanner, ProjectStory, ProjectRoadmap, ProjectPartners } from '@/components';
+import ProjectIntro from '@/components/ProjectIntro';
 
 export default {
   name: 'HomeView',
   components: {
+    ProjectIntro,
     HomeBanner,
     ProjectStory,
     ProjectRoadmap,
